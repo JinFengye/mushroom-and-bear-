@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset=UTF-8">
+
+<title>HTML5游戏 - 蘑菇动吧 </title>
+
+</head>
+
+<body>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type = "text/javascript" src = "js/game.js"></script>
+
+    <audio src="sounds/schnappi.mp3" autoplay loop></audio>
+    <div id="container" style="border:1px solid; width:480px; height:320px;">
+
+        <canvas id="canvas" width="480" height="320">您好~您的浏览器不支持html5 ，<a href="http://www.html5china.com">请下载</a>支持html5的浏览器来运行
+        </canvas>
+
+    </div>
+    <img id="BtnImgStart" style="position: absolute; left: 200px; top: 200px; cursor: pointer; float: left; display: block; " src="./images/START-Button.png">
+
+
+    <div style="clear:left;" id="fps">0 帧数</div>
+    <!-- <input id="showHideBounds" type="button" value="显示/隐藏 边框"> -->
+</body>
+</html>
